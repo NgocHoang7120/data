@@ -1,0 +1,1 @@
+ffmpeg -i input_5.1.wav -map_channel 0.0.0 left.wav -map_channel 0.0.1 right.wav -map_channel 0.0.2 center.wav -map_channel 0.0.3 lfe.wav -map_channel 0.0.4 left_surround.wav -map_channel 0.0.5 right_surround.wav
